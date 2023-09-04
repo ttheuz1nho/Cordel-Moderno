@@ -111,5 +111,5 @@ footer a{
 }
 
 footer a:hover{
-    text-shadow: 3px 1px 40px rgba(255, 255, 255, 0.37);
+    text-shadow: 3px 1px 41px rgb(255, 255, 255);
 }
