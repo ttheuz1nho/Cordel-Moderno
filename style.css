@@ -1,0 +1,115 @@
+*{margin: 0px; padding: 0px; font-family: var(--fonte);}
+
+@font-face {
+    font-family: Macabro;
+    src: url(../font/Funny\ Maid\ Corporation.ttf);
+}
+
+:root{
+    --fonte: Macabro;
+}
+
+/*Header*/
+
+header{
+    background-color: black;
+    padding: 30px;
+}
+
+header > h1{
+    color: white;
+    background-color: black;
+    font-size: 15vh;
+    text-align: center;
+}
+
+header > p{
+    color: white;
+    background-color: black;
+    font-size: 9vh;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(139, 0, 194);
+}
+
+header a:hover{
+    text-shadow: 3px 1px 41px rgba(255, 255, 255, 0.37);
+}
+
+/*Body*/
+
+body{
+    color: rgb(53, 53, 53);
+}
+
+/*Section*/
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 9vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 5.6vh;
+}
+
+section.branco{
+    background-color: rgb(255, 255, 255);
+}
+
+section.cogu{
+    background-image: url(../imagens/sunrise-1014712_1280.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cogu > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 37vh;
+    height: 45vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    color: rgb(236, 232, 232);
+}
+
+section.cafe{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cafe > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 37vh;
+    height: 45vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    color: rgb(236, 232, 232);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(139, 0, 194);
+    text-shadow: 3px 1px 40px rgba(255, 255, 255, 0.37);
+}
+
+footer a:hover{
+    text-shadow: 3px 1px 40px rgba(255, 255, 255, 0.37);
+}
