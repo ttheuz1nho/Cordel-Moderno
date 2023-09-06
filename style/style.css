@@ -61,10 +61,10 @@ section.branco{
 
 section.cogu{
     background-color: red;
-    /*background-image: url(../imagens/sunrise-1014712_1280.jpg);
+    background-image: url(../imagens/sunrise-1014712_1280.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 
 .cogu > p{
@@ -81,10 +81,10 @@ section.cogu{
 
 section.cafe{
     background-color: lightgreen;
-    /*background-image: url(../imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 .cafe > p{
     background-color: rgba(0, 0, 0, 0.514);
