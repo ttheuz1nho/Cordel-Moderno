@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-*{margin: 0px; padding: 0px; /*font-family: var(--fonte)*/;}
-/*
+*{margin: 0px; padding: 0px; font-family: var(--fonte);}
+
 @font-face {
     font-family: Macabro;
     src: url(../font/VanillaRavioli_Demo.ttf);
@@ -10,7 +10,7 @@
 :root{
     --fonte: Macabro;
 }
-*/
+
 /*Header*/
 
 header{
@@ -53,6 +53,7 @@ section{
     padding-left: 10px;
     padding-bottom: 9vh;
     font-size: 3.9vh;
+    line-height: 35px;
 }
 
 section.branco{
