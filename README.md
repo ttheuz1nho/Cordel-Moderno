@@ -1,2 +1,2 @@
-https://github.com/ttheuz1nho/Cordel-Moderno.git
+ https://ttheuz1nho.github.io/Cordel-Moderno/
  
